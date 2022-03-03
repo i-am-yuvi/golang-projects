@@ -10,7 +10,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Hello, World!")
+	io.WriteString(w, "Hi, I am Yuvraj Chhetri working on go projects")
 }
 
 //route declaration
